@@ -16,22 +16,22 @@ import mysql.connector
 # Settings
 
 # Mail Settings
-imap_username = ""
-imap_password = ""
-imap_server = ""
+imap_username = "mail@shork.email"
+imap_password = "@But@!ib$iriy3v200311"
+imap_server = "shiriyev.me"
 
 # Database Information's
-db_host = ""
-db_user = ""
-db_password = ""
-database = ""
+db_host = "byte.rasbyte.net"
+db_user = "admin_omer"
+db_password = "@But@!ib$iriy3v200311"
+database = "admin_omer"
 
 # Other codes
 website_link = "https://dashboard.honeygain.com/sign-up"
-password = ""
-random_email_domain = ""
-promo_code = "" # can be empty
-metamask_password = ""
+password = "1Az234wsx+!"
+random_email_domain = "@shork.email"
+promo_code = "REF_HB2E04"
+metamask_password = "1Az234wsx+"
 
 
 # Functions
@@ -115,34 +115,6 @@ try:
                                 while True:
                                     try:
                                         time.sleep(2)
-
-                                        # Click chrome
-                                        pyautogui.click(89, 1050)
-                                        time.sleep(2)
-
-                                        # Click logo
-                                        pyautogui.click(1509, 132)
-                                        time.sleep(2)
-
-                                        # Click create account label
-                                        pyautogui.click(1316, 648)
-                                        time.sleep(2)
-
-                                        # Click create button
-                                        pyautogui.click(1083, 420)
-                                        time.sleep(60)
-
-                                        # Get wallet code
-                                        pyautogui.click(956, 225)
-                                        time.sleep(2)
-                                        pyautogui.click(956, 225)
-                                        time.sleep(2)
-                                        print(pyperclip.paste())
-
-                                        metamask_wallet = f"{pyperclip.paste()}"
-
-                                        time.sleep(2)
-
                                         # Paste metamask wallet
                                         WebDriverWait(browser, 100).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[4]/div/div/div/div[2]/div/div/div/div[3]/form/div[1]/div/input"))).send_keys(metamask_wallet)
                                         WebDriverWait(browser, 100).until(EC.presence_of_element_located((By.XPATH, "/html/body/div[4]/div/div/div/div[2]/div/div/div/div[3]/form/div[2]/button"))).click()
