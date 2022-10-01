@@ -16,22 +16,22 @@ import mysql.connector
 # Settings
 
 # Mail Settings
-imap_username = "mail@shork.email"
-imap_password = "@But@!ib$iriy3v200311"
-imap_server = "shiriyev.me"
+imap_username = ""
+imap_password = ""
+imap_server = ""
 
 # Database Information's
-db_host = "byte.rasbyte.net"
-db_user = "admin_omer"
-db_password = "@But@!ib$iriy3v200311"
-database = "admin_omer"
+db_host = ""
+db_user = ""
+db_password = ""
+database = ""
 
 # Other codes
 website_link = "https://dashboard.honeygain.com/sign-up"
-password = "1Az234wsx+!"
-random_email_domain = "@shork.email"
-promo_code = "REF_HB2E04"
-metamask_password = "1Az234wsx+"
+password = ""
+random_email_domain = "@gmail.com"
+promo_code = "honeygain promo code if don't have make it empty"
+metamask_password = ""
 
 
 # Functions
